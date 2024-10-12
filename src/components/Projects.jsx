@@ -7,6 +7,12 @@ const Projects = () => {
       link: "https://github.com/Gautamp11/the-wild-oasis",
     },
     {
+      title: "The Wild Oasis Website",
+      image: "project-the-wild-oasis-website.png",
+      skills: ["NextJS", "Tailwind", "Supabase"],
+      link: "https://github.com/Gautamp11/the-wild-oasis-website",
+    },
+    {
       title: "Today I Learned",
       image: "project-today-i-learned.png",
       skills: ["React", "Supabase"],
