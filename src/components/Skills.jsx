@@ -23,6 +23,12 @@ const Skills = () => {
         </li>
         <li>
           <span>
+            <i className="ri-nextjs-line"></i>
+          </span>
+          <h2>NextJS</h2>
+        </li>
+        <li>
+          <span>
             <i className="ri-nodejs-line"></i>
           </span>
           <h2>NodeJS</h2>
