@@ -65,7 +65,7 @@ const Projects = () => {
             className="project__card"
             key={index}
             data-aos={`${index % 2 === 0 ? "fade-right" : "fade-left"}`} // AOS animation
-            data-aos-delay={index * 100}
+            data-aos-delay={index * 50}
           >
             <div className="project__image__container">
               <img src={`/assets/${project.image}`} alt="project" />

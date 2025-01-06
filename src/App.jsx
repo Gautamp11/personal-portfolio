@@ -4,7 +4,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import Layout from "./components/Layout";
+
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,8 +22,9 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Header />
       <main>
+        <Header />
+        <Skills />
         <Projects />
         <Experience />
         <Contact />
