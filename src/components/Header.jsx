@@ -1,6 +1,11 @@
 const Header = () => {
   return (
-    <header className="section__container header__container" id="header">
+    <header
+      className="section__container header__container"
+      id="header"
+      data-aos="fade-up"
+      // data-aos-delay={50}
+    >
       <img src="/assets/avatar.png" alt="header" />
       <h1>
         I'm Gautam

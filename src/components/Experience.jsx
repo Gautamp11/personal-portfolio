@@ -5,7 +5,7 @@ const Experience = () => {
       company: "ADP",
       duration: "July 2022 - Present",
       description:
-        "I am currently employed at ADP, where I have accumulated 2 years of experience in front-end development. Additionally, I have gained exposure to SAP Basis administration as part of my role. I'm passionate about web development and continuously expanding my skills in both areas.",
+        "I am currently employed at ADP, where I have accumulated 2 years of experience in front-end development. Additionally, I have gained exposure to SAP Basis administration as part of my role. I'm passionate about web development and continuously expanding my skills.",
       logo: "adp-exp-logo.webp",
     },
     {
@@ -30,6 +30,8 @@ const Experience = () => {
     <section
       className="section__container experience__container"
       id="experience"
+      data-aos="fade-up"
+      data-aos-delay={100}
     >
       <h2>EXPERIENCE</h2>
       <ul className="experience__list">

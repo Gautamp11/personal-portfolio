@@ -1,7 +1,11 @@
 const Contact = () => {
   return (
     <footer>
-      <div className="section__container footer__container" id="contact">
+      <div
+        className="section__container footer__container"
+        id="contact"
+        data-aos="fade-up"
+      >
         <h2>Contact</h2>
         <p>
           I'd love to hear from you! Whether you have a project in mind, a

@@ -19,6 +19,12 @@ const Projects = () => {
       link: "https://github.com/Gautamp11/today-i-learned",
     },
     {
+      title: "Habit Tracker",
+      image: "project-habit-tracker.png",
+      skills: ["React", "tailwind", "Redux"],
+      link: "https://github.com/Gautamp11/habit-tracker",
+    },
+    {
       title: "React Quiz App",
       image: "project-react-quiz.png",
       skills: ["React", "CSS", "JSX"],
@@ -55,7 +61,12 @@ const Projects = () => {
       <h2>PROJECTS</h2>
       <div className="project__grid">
         {projects.map((project, index) => (
-          <div className="project__card" key={index}>
+          <div
+            className="project__card"
+            key={index}
+            data-aos={`${index % 2 === 0 ? "fade-right" : "fade-left"}`} // AOS animation
+            data-aos-delay={index * 100}
+          >
             <div className="project__image__container">
               <img src={`/assets/${project.image}`} alt="project" />
             </div>
@@ -74,7 +85,11 @@ const Projects = () => {
             </div>
           </div>
         ))}
-        <div className="project__card">
+        <div
+          className="project__card"
+          data-aos="fade-left"
+          data-aos-delay={1000}
+        >
           <div className="project__image__container">
             <img src="/assets/project-more.jpeg" alt="More Projects" />
           </div>

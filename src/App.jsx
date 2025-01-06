@@ -5,26 +5,30 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Layout from "./components/Layout";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const App = () => {
+  //using AOS library for animation. Initializing here and we can add data-aos property to any element which need animation
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in ms
+      once: true, // Whether animation should happen only once while scrolling down
+      offset: 50, // Offset (in px) for triggering animations
+    });
+  }, []);
+
   return (
-    <Layout>
+    <div>
       <Navbar />
-      <div className="reveal" id="header">
-        <Header />
-      </div>
-      <div className="reveal" id="skills">
-        <Skills />
-      </div>
-      <div className="reveal" id="project">
+      <Header />
+      <main>
         <Projects />
-      </div>
-      <div className="reveal" id="experience">
         <Experience />
-      </div>
-      <div className="reveal" id="contact">
         <Contact />
-      </div>
-    </Layout>
+      </main>
+    </div>
   );
 };
 
