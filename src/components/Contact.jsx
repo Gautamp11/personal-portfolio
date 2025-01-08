@@ -8,11 +8,9 @@ const Contact = () => {
       >
         <h2>Contact</h2>
         <p>
-          I'd love to hear from you! Whether you have a project in mind, a
-          question about my work, or just want to connect, feel free to reach
-          out. You can contact me via email or through my social media channels.
-          I am always excited to collaborate with like-minded individuals and
-          explore new opportunities.
+          I’d love to hear from you! Got a project, a question, or just want to
+          connect? Drop me an email or reach out on social media—I’m always up
+          for great conversations and new opportunities!
         </p>
         <div className="mail__to">
           <a href="#">

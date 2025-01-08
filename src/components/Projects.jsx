@@ -88,7 +88,7 @@ const Projects = () => {
         <div
           className="project__card"
           data-aos="fade-left"
-          data-aos-delay={1000}
+          data-aos-delay={700}
         >
           <div className="project__image__container">
             <img src="/assets/project-more.jpeg" alt="More Projects" />

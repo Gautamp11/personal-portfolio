@@ -13,7 +13,7 @@ const App = () => {
   // using AOS library for animation. Initializing here and we can add data-aos property to any element which need animation
   useEffect(() => {
     AOS.init({
-      duration: 500, // Animation duration in ms
+      duration: 600, // Animation duration in ms
       once: true, // Whether animation should happen only once while scrolling down
       easing: "ease-in-out",
       offset: 50, // Offset (in px) for triggering animations
