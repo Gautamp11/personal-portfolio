@@ -15,7 +15,6 @@ const App = () => {
     AOS.init({
       duration: 600, // Animation duration in ms
       once: true, // Whether animation should happen only once while scrolling down
-      easing: "ease-in-out",
       offset: 50, // Offset (in px) for triggering animations
     });
   }, []);
