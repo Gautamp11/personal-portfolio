@@ -19,6 +19,12 @@ const Projects = () => {
       link: "https://github.com/Gautamp11/today-i-learned",
     },
     {
+      title: "Chit Chat",
+      image: "project-chit-chat.png",
+      skills: ["React", "Supabase", "Tailwind"],
+      link: "https://github.com/Gautamp11/chit-chat",
+    },
+    {
       title: "Habit Tracker",
       image: "project-habit-tracker.png",
       skills: ["React", "tailwind", "Redux"],
