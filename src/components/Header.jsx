@@ -4,39 +4,66 @@ const Header = () => {
       className="section__container header__container"
       id="header"
       data-aos="fade-up"
-      // data-aos-delay={50}
     >
-      <img src="/assets/avatar.png" alt="header" />
-      <h1>
-        I'm Gautam
-        <br />
-        Learning and Growing <span>Software Developer</span>
-      </h1>
-      <p>
-        I specialize in HTML, CSS, JavaScript, React, and Node.js, with 2 years
-        of experience at ADP, where I gained valuable insights into front-end
-        development alongside SAP Basis administration. I'm currently expanding
-        my skills into full-stack development.
-      </p>
-      <div className="header__btns">
-        <button
-          className="btn"
-          onClick={() =>
-            window.open(
-              "https://www.linkedin.com/in/gautam-kumar-abb14b192/",
-              "_blank"
-            )
-          }
-        >
-          Get in Touch
-        </button>
-        <a
-          href="https://drive.google.com/drive/folders/1RoqgxvPqTIOsapDUSUtv-FFyE4blcJaT"
-          download
-          target="_blank"
-        >
-          Download CV
-        </a>
+      <div className="header__content">
+        <div className="header__image-container">
+          <img
+            src="/assets/avatar.png"
+            alt="Gautam Kumar"
+            className="header__avatar"
+          />
+          <div className="header__avatar-border"></div>
+        </div>
+
+        <div className="header__text">
+          <h1>
+            Gautam Kumar
+            <span className="header__title">Software Developer</span>
+          </h1>
+
+          <div className="highlights-section">
+            <div className="highlights-item">
+              <h2>Experience</h2>
+              <p>
+                <span>3+</span> years
+              </p>
+            </div>
+            <div className="highlights-item">
+              <h2>Projects</h2>
+              <p>
+                <span>10+</span> completed
+              </p>
+            </div>
+            <div className="highlights-item">
+              <h2>DSA</h2>
+              <p>
+                <span>100+</span> solved
+              </p>
+            </div>
+          </div>
+
+          <div className="header__btns">
+            <button
+              className="btn btn__primary"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/gautam-kumar-abb14b192/",
+                  "_blank"
+                )
+              }
+            >
+              Get in Touch
+            </button>
+            <a
+              href="https://drive.google.com/drive/folders/1RoqgxvPqTIOsapDUSUtv-FFyE4blcJaT"
+              download
+              target="_blank"
+              className="btn btn__secondary"
+            >
+              Download CV
+            </a>
+          </div>
+        </div>
       </div>
     </header>
   );

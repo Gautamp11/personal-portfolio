@@ -1,6 +1,12 @@
 const Projects = () => {
   const projects = [
     {
+      title: "Skill Share Board",
+      image: "project-skillShareBoard.png",
+      skills: ["React", "tailwind", "Supabase"],
+      link: "https://github.com/Gautamp11/skillShareBoard",
+    },
+    {
       title: "The Wild Oasis Hotel Management App",
       image: "project-the-wild-oasis.png",
       skills: ["React", "React Query", "Supabase"],
