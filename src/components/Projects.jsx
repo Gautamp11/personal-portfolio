@@ -7,6 +7,12 @@ const Projects = () => {
       link: "https://github.com/Gautamp11/skillShareBoard",
     },
     {
+      title: "Smart Finance Observer",
+      image: "project-smart-finance.png",
+      skills: ["NextJS", "tailwind", "Supabase"],
+      link: "https://github.com/Gautamp11/smartFinace",
+    },
+    {
       title: "The Wild Oasis Hotel Management App",
       image: "project-the-wild-oasis.png",
       skills: ["React", "React Query", "Supabase"],
