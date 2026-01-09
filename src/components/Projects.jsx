@@ -1,16 +1,22 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Skill Share Board",
-      image: "project-skillShareBoard.png",
-      skills: ["React", "tailwind", "Supabase"],
-      link: "https://github.com/Gautamp11/skillShareBoard",
+      title: "Time Hop",
+      image: "project-timehop.png",
+      skills: ["NextJS", "tailwind", "Supabase"],
+      link: "https://github.com/Gautamp11/timehop",
     },
     {
       title: "Smart Finance Observer",
       image: "project-smart-finance.png",
       skills: ["NextJS", "tailwind", "Supabase"],
       link: "https://github.com/Gautamp11/smartFinace",
+    },
+    {
+      title: "Skill Share Board",
+      image: "project-skillShareBoard.png",
+      skills: ["React", "tailwind", "Supabase"],
+      link: "https://github.com/Gautamp11/skillShareBoard",
     },
     {
       title: "The Wild Oasis Hotel Management App",
