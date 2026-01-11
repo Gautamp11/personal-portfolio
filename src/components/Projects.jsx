@@ -115,7 +115,9 @@ const Projects = () => {
                   ))}
                 </div>
               </div>
-              <div>
+              <div
+                style={{ display: "flex", gap: "1px", alignItems: "center" }}
+              >
                 <a
                   href={project.gitLink}
                   target="_blank"
