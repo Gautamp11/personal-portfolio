@@ -29,6 +29,12 @@ const Skills = () => {
         </li>
         <li>
           <span>
+            <i className="ri-android-line"></i>
+          </span>
+          <h2>React Native</h2>
+        </li>
+        <li>
+          <span>
             <i className="ri-nodejs-line"></i>
           </span>
           <h2>NodeJS</h2>

@@ -48,14 +48,14 @@ const Header = () => {
               onClick={() =>
                 window.open(
                   "https://www.linkedin.com/in/gautam-kumar-abb14b192/",
-                  "_blank"
+                  "_blank",
                 )
               }
             >
               Get in Touch
             </button>
             <a
-              href="https://drive.google.com/drive/folders/1RoqgxvPqTIOsapDUSUtv-FFyE4blcJaT"
+              href="https://drive.google.com/file/d/1FWRWoriFl43vNP-y1gSVQk0fs4VCqJUs/view?usp=drive_link"
               download
               target="_blank"
               className="btn btn__secondary"
